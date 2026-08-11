@@ -1,9 +1,5 @@
-const social = {
-  github: "https://github.com/YOUR_GITHUB",
-
-  linkedin: "https://linkedin.com/in/YOUR_LINKEDIN",
-
-  email: "mailto:asalekarps@gmail.com",
+export const social = {
+  email: "asalekarps@gmail.com",
+  github: "https://github.com/pranav-asalekar",
+  linkedin: "https://www.linkedin.com/in/asalekar-ps/",
 };
-
-export default social;

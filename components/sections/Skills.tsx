@@ -3,40 +3,51 @@ import { Container, SectionHeading } from "@/components/ui";
 const stack = [
   {
     key: "languages",
-    values: ["Python", "SQL", "C#", "R"],
+    values: ["Python", "SQL", "R", "C#", "C/C++"],
   },
   {
-    key: "backend",
-    values: ["FastAPI", "REST APIs", "Flask"],
-  },
-  {
-    key: "data",
+    key: "data_analysis",
     values: [
-      "PostgreSQL",
-      "MongoDB",
-      "MySQL",
-      "Oracle",
-      "Power BI",
       "Pandas",
+      "NumPy",
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Advanced Excel",
+      "Tableau",
     ],
   },
   {
-    key: "engineering",
+    key: "databases",
     values: [
-      "Docker",
-      "Git",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Oracle",
+    ],
+  },
+  {
+    key: "data_engineering",
+    values: [
       "ETL",
       "Data Modelling",
       "Data Warehousing",
+      "SSIS",
+      "SSRS",
     ],
   },
   {
     key: "cloud",
-    values: ["Azure", "AWS", "Databricks"],
+    values: ["Azure", "Databricks", "AWS"],
   },
   {
-    key: "tools",
-    values: ["Jira", "ServiceNow", "SSIS", "SSRS"],
+    key: "engineering_tools",
+    values: [
+      "Git",
+      "Docker",
+      "Jira",
+      "ServiceNow",
+    ],
   },
 ];
 
@@ -50,14 +61,14 @@ export default function Skills() {
         <SectionHeading
           number="04 / TECHNOLOGY"
           title="stack.json"
-          subtitle="The technologies and engineering tools I work with across backend, data, and cloud environments."
+          subtitle="Technologies and tools I work with across software engineering, data, and analytics."
         />
 
         <div className="overflow-hidden rounded-2xl border border-zinc-200 bg-white">
-          {/* File header */}
           <div className="flex items-center justify-between border-b border-zinc-200 px-5 py-3">
             <div className="flex items-center gap-2">
               <span className="h-2 w-2 rounded-full bg-zinc-300" />
+
               <span className="font-mono text-xs text-zinc-500">
                 stack.json
               </span>
@@ -68,8 +79,7 @@ export default function Skills() {
             </span>
           </div>
 
-          {/* JSON-style content */}
-          <div className="p-6 font-mono text-sm leading-8 md:p-8">
+          <div className="overflow-x-auto p-6 font-mono text-sm leading-8 md:p-8">
             <p className="text-zinc-400">&#123;</p>
 
             {stack.map((group, index) => (

@@ -1,21 +1,8 @@
-const profile = {
+export const profile = {
   name: "Pranav Asalekar",
-
-  title: "Python Backend Engineer",
-
-  subtitle:
-    "Building scalable backend systems, AI-powered applications, and distributed software.",
-
-  description:
-    "Backend engineer with 4+ years of experience building APIs, distributed systems, industrial IoT solutions, and AI-powered applications.",
-
+  role: "Software Engineer · Data & AI",
   location: "Pune, India",
-
-  email: "asalekarps@gmail.com",
-
-  availability: "Open to opportunities",
-
-  resume: "/resume.pdf",
+  tagline:
+    "I build backend systems, data-driven applications, and practical solutions where software, data, and intelligence meet.",
+  currentFocus: "Industrial IoT software",
 };
-
-export default profile;

@@ -4,11 +4,11 @@ import { Badge, Container } from "@/components/ui";
 
 const technologies = [
   "Python",
-  "FastAPI",
-  "PostgreSQL",
+  "SQL",
   "MongoDB",
-  "Docker",
   "Power BI",
+  "Azure",
+  "Databricks",
 ];
 
 export default function Hero() {
@@ -33,16 +33,16 @@ export default function Hero() {
               Asalekar
             </h1>
 
-            {/* Role */}
+            {/* Role + positioning */}
             <div className="mt-8">
               <p className="font-mono text-sm text-zinc-500">
-                Software Engineer
+                Software Engineer · Data & AI
               </p>
 
               <p className="mt-4 max-w-2xl text-lg leading-8 text-zinc-600 md:text-xl">
-                I build reliable backend systems, data platforms, and
-                AI-powered applications with a focus on clean architecture
-                and practical engineering.
+                I build backend systems, data-driven applications, and
+                practical solutions where software, data, and intelligence
+                meet.
               </p>
             </div>
 
@@ -67,6 +67,7 @@ export default function Hero() {
                 Resume
                 <ArrowUpRight size={15} />
               </Link>
+
               <Link
                 href="https://github.com/pranav-asalekar"
                 target="_blank"
@@ -78,7 +79,7 @@ export default function Hero() {
               </Link>
 
               <Link
-                href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME"
+                href="https://www.linkedin.com/in/asalekar-ps/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-medium text-zinc-900 transition hover:border-zinc-950"

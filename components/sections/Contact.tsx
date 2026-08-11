@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: "LinkedIn",
-    value: "https://www.linkedin.com/in/asalekar-ps/",
+    value: "linkedin.com/in/asalekar-ps",
     href: "https://www.linkedin.com/in/asalekar-ps/",
   },
 ];

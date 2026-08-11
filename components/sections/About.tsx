@@ -16,20 +16,26 @@ export default function About() {
         <div className="grid gap-10 md:grid-cols-[1fr_280px] md:gap-16">
           <div className="max-w-3xl space-y-6 text-base leading-8 text-zinc-600">
             <p>
-              I'm a software engineer with a background spanning backend
-              development, data analysis, and business intelligence.
+              I'm a software engineer with a background in data analysis,
+              business intelligence, and software development.
             </p>
 
             <p>
-              I enjoy working on systems where software, data, and practical
-              problem-solving come together — from APIs and data workflows to
-              anomaly detection and AI-powered applications.
+              My work sits at the intersection of software and data. I enjoy
+              building backend workflows, working with data systems, and
+              turning technical problems into practical solutions.
             </p>
 
             <p>
-              My approach is simple: understand the problem, keep the
-              architecture practical, and build software that is reliable,
-              maintainable, and useful.
+              I'm particularly interested in backend engineering, data and AI
+              systems, and applications where reliable software can turn
+              complex data into something useful.
+            </p>
+
+            <p>
+              Outside of individual technologies, I care about writing
+              maintainable code, understanding the problem before solving it,
+              and keeping engineering solutions practical.
             </p>
           </div>
 
@@ -41,8 +47,8 @@ export default function About() {
             <ul className="mt-4 space-y-3 font-mono text-xs text-zinc-600">
               <li>→ Backend Engineering</li>
               <li>→ Data & AI Systems</li>
-              <li>→ Distributed Systems</li>
               <li>→ Industrial IoT</li>
+              <li>→ Data Platforms</li>
             </ul>
           </div>
         </div>
